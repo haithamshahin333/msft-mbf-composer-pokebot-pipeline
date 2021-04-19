@@ -6,9 +6,9 @@ pool: 'Hosted Windows 2019 with VS2019'
 steps:
   - template: 'pipelines\pipeline.yml'
     parameters:
-        resourceGroupName: 'dev-rg-pokebot-01'
-        appServiceResourceName: 'dev-rg-pokebot-01'
-        luisResourceName: 'dev-rg-pokebot-01-luis'
+        resourceGroupName: 'dev-rg-pokebot-arm-dev'
+        appServiceResourceName: 'dev-rg-pokebot-arm-dev'
+        luisResourceName: 'dev-rg-pokebot-arm-dev-luis'
         resourceGroupServiceConnection: 'pokebot-connection'
         keyVaultName: 'dev-kvt-pokebot-01-hs'
         microsoftAppIdSecretName: 'microsoftAppId'
