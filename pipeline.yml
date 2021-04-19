@@ -9,7 +9,7 @@ steps:
         resourceGroupName: 'dev-rg-pokebot-01'
         appServiceResourceName: 'dev-rg-pokebot-01'
         luisResourceName: 'dev-rg-pokebot-01-luis'
-        resourceGroupServiceConnection: 'test-demo-connection'
+        resourceGroupServiceConnection: 'pokebot-connection'
         keyVaultName: 'dev-kvt-pokebot-01-hs'
         microsoftAppIdSecretName: 'microsoftAppId'
         microsoftAppPasswordSecretName: 'microsoftAppPassword'
